@@ -1,0 +1,16 @@
+package user;
+
+import java.util.Scanner;
+
+public class VarEx5 {
+		public static void main(String[] args) {
+			int x = 0, y = 0, z = 0;
+			Scanner scanner = new Scanner(System.in);
+			System.out.println("정수 x = [ ]");
+			x = scanner.nextInt();
+			System.out.println("정수 y = [ ]");
+			 y = scanner.nextInt();	
+			 z = x%y;
+			System.out.println("x%y = "+z);
+		}
+}
