@@ -54,12 +54,7 @@ public class Num1 {
 			System.out.print("점수 입력 : ");
 				avg3 = scanner.nextInt();
 				
-			if(avg>avg2&&avg>avg3 ){
-			
-				
-				
-				
-			}else if
+		
 			
 			System.out.println("1등 "+name+"은 "+avg+"점");
 			System.out.println("2등 "+name2+"은 "+avg2+"점");

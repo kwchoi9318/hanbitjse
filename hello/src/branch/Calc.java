@@ -46,7 +46,7 @@ public class Calc {
 			 i = num1 % num2;
 			 j = "%";
 			 return;
-		}*/
+		}
 	System.out.println(num1+j+num2+"="+i);	
 	}
 	
