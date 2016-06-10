@@ -29,27 +29,33 @@ public class Calc2 {
 		 num2 = scanner.nextInt();
 		 switch (opcode) {
 		case 1:
-			j = "+";
 			i = num1 + num2;
+			j = "+";
+			
 			
 			break;
 		case 2:
 			
-			i = num1 + num2;
+			i = num1 - num2;
 			j = "-";
 		
 			break;
 		case 3:
-			i = num1 + num2;
+			i = num1 * num2;
 			j = "*";
 		
 			break;
-	
+		case 4:
+			i = num1/num2;
+			j = "/";
+			
+			
 		
 		default:
+			System.out.println("이외의 연산자 사용불가");
 			break;
 		}
-		System.out.println("opcode의 값을 입력하세요"); 
+		/*System.out.println("opcode의 값을 입력하세요"); 
 		 opcode = scanner.nextInt();
 		if (opcode == 1) {
 			
@@ -64,7 +70,7 @@ public class Calc2 {
 			 
 			 i = num1 + num2;j = "%";
 			 return;
-		}
+		}*/
 	System.out.println(num1+j+num2+"="+i);	
 	}
 	

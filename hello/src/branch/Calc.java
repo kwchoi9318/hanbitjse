@@ -33,19 +33,20 @@ public class Calc {
 			i = num1 + num2;
 			j = "+";
 		}else if(opcode == 2){
-			i = num1 + num2;
+			i = num1 - num2;
 			j = "-";
 		}else if(opcode == 3){
-			i = num1 + num2;
+			i = num1 * num2;
 			j = "*";
 		}else if(opcode == 4){
-			i = num1 + num2;
+			i = num1 / num2;
 			j = "/";
 		 }else{
 			 
-			 i = num1 + num2;j = "%";
+			 i = num1 % num2;
+			 j = "%";
 			 return;
-		}
+		}*/
 	System.out.println(num1+j+num2+"="+i);	
 	}
 	
